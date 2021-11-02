@@ -6,5 +6,5 @@ public interface BrugerRepository {
 
   public Bruger login(String email, String kodeord);
 
-  public  Bruger opretBruger(String fornavn, String efternavn, String email, String kodeord);
+  public  Bruger opretBruger(Bruger bruger);
 }

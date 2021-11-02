@@ -11,8 +11,9 @@ public class BrugerRepositoryImpl implements BrugerRepository{
   }
 
   @Override
-  public Bruger opretBruger(String fornavn, String efternavn, String email, String kodeord) {
-
+  public Bruger opretBruger(Bruger bruger) {
     return null;
   }
+
+
 }
