@@ -6,11 +6,13 @@ public class BrugerRepositoryImpl implements BrugerRepository{
 
   @Override
   public Bruger login(String email, String kodeord) {
+
     return null;
   }
 
   @Override
   public Bruger opretBruger(String fornavn, String efternavn, String email, String kodeord) {
+
     return null;
   }
 }
