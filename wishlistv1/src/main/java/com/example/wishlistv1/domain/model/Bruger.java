@@ -5,14 +5,14 @@ public class Bruger {
   private String efternavn;
   private String email;
   private String kodeord;
-  private int id;
+
 
   public Bruger(String fornavn, String efternavn, String email, String kodeord, int id) {
     this.fornavn = fornavn;
     this.efternavn = efternavn;
     this.email = email;
     this.kodeord = kodeord;
-    this.id = id;
+
   }
 
   public int getId() {
