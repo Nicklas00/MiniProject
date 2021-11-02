@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<div class="header">
+    <ul id="nav">
+        <div class="logo">
+            <a href="https://kea.dk/"><img src="media/kea.jpg" alt="Kea" width="133" height="61"></a>
+
+        </div>
+        <li id="nav"><a id="nav" href="index.html">Forside</a></li>
+        <li id="nav"><a id="nav" href="Oenskeliste.html">Ønskeliste</a></li>
+        <li id="nav"><a id="nav" href="blank1.html">Blank</a></li>
+        <li id="nav"><a id="nav" href="login.html">Login</a></li>
+    </ul>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<div class="header">
+    <h1 class="center">Opret side</h1>
+</div>
+
+<div class="wrapper">
+    <form class="center">
+        <label>Skriv fornavn</label><br>
+        <input type="text" name="signup_firstname" placeholder="Fornavn"><br>
+        <label>Skriv efternavn</label><br>
+        <input type="text" name="signup_lastname" placeholder="Efternavn"><br>
+        <label>Skriv email</label><br>
+        <input type="email" name="signup_email" placeholder="Email"><br>
+        <label>Skriv password</label><br>
+        <input type="password" name="signup_password" placeholder="Password"><br>
+        <label>Skriv password igen</label><br>
+        <input type="password" name="signup_repassword" placeholder="Gentag password">
+    </form>
+</div>
+</body>
+</html>

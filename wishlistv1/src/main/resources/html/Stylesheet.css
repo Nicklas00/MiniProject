@@ -1,0 +1,111 @@
+:root {
+   --cover: #cccccc;
+    --navbar: cadetblue;
+    --navhover: cornsilk;
+    --topback: purple;
+    --btntxt: white;
+    --hovertop: grey;
+    --wrapboarder: blue;
+    --submittxt: red;
+}
+
+html{
+    background-color: var(--cover);
+    background-size: cover;
+}
+
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li#nav {
+    float: left;
+    display: inline;
+}
+
+a#nav {
+    font-family: Calibri;
+    color: var(--navbar);
+}
+
+li a#nav {
+    display: block;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 12px 12px;
+}
+
+li a:hover#nav {
+    background-color: var(--navhover);
+}
+
+
+h1 {
+    font-family: Calibri;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-family: Calibri;
+    font-size: xxx-large;
+}
+
+.logo {
+    float: top;
+    float: right;
+
+}
+
+.p {
+    font-family: Calibri;
+    font-size: medium;
+}
+
+#myBtn{
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--topback);
+    color: var(--btntxt);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: var(--hovertop);
+}
+
+div.wrapper {
+    width: 25%;
+    margin: auto;
+    border-style: solid;
+    border-color: var(--wrapboarder);
+    padding: 10px;
+}
+
+.opret_knap{
+    text-decoration: none;
+    color: var(--submittxt);
+    font-size: 1rem;
+    border-style: none;
+    transition: .5s;
+}
+
+.center{
+    text-align: center;
+}
+
+div.header{
+    width: 100%;
+    height: 30%;
+}
