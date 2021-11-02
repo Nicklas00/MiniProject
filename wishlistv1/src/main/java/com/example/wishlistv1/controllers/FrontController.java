@@ -12,4 +12,10 @@ public class FrontController {
 
   @GetMapping("/blank1")
   public String blank1() { return "blank1"; }
+
+  @GetMapping("/login")
+  public String login() { return "login"; }
+
+  @GetMapping("/opret")
+  public String opret() { return "opret"; }
 }
