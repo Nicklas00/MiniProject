@@ -1,12 +1,13 @@
 :root {
-   --cover: #cccccc;
-    --navbar: cadetblue;
-    --navhover: cornsilk;
+   --cover: #32292F;
+    --navbar: #99E1D9;
+    --navhover: #70ABAF;
     --topback: purple;
     --btntxt: white;
     --hovertop: grey;
     --wrapboarder: blue;
     --submittxt: red;
+    --txt: #F0F7F4;
 }
 
 html{
@@ -47,11 +48,13 @@ h1 {
     font-size: xxx-large;
     text-align: center;
     padding: 40px;
+    color: var(--txt);
 }
 
 h2 {
     font-family: Calibri;
     font-size: xxx-large;
+    color: var(--txt);
 }
 
 .logo {
@@ -63,6 +66,7 @@ h2 {
 .p {
     font-family: Calibri;
     font-size: medium;
+    color: var(--txt);
 }
 
 #myBtn{
@@ -91,6 +95,7 @@ div.wrapper {
     border-style: solid;
     border-color: var(--wrapboarder);
     padding: 10px;
+    color: var(--txt);
 }
 
 .opret_knap{
