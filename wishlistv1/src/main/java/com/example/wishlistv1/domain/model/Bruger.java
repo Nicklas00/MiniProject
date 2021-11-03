@@ -5,10 +5,16 @@ public class Bruger {
   private String efternavn;
   private String email;
   private String kodeord;
+  private int id;
 
   public Bruger(String fornavn, String efternavn, String email, String kodeord) {
     this.fornavn = fornavn;
     this.efternavn = efternavn;
+    this.email = email;
+    this.kodeord = kodeord;
+  }
+
+  public Bruger(String email, String kodeord) {
     this.email = email;
     this.kodeord = kodeord;
   }
@@ -44,5 +50,9 @@ public class Bruger {
 
   public void setKodeord(String kodeord) {
     this.kodeord = kodeord;
+  }
+
+  public void setId(int id) {
+    this.id = id;
   }
 }
